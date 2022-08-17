@@ -12,17 +12,17 @@ namespace XPMultiplier
     {
         public byte General { get; set; } = 1;
 
-        public byte Combat { get; set; } = 1;
+        public byte Combat { get; set; } = 10;
 
-        public byte Farming { get; set; } = 1;
+        public byte Farming { get; set; } = 10;
 
-        public byte Fishing { get; set; } = 1;
+        public byte Fishing { get; set; } = 10;
 
-        public byte Mining { get; set; } = 1;
+        public byte Mining { get; set; } = 10;
 
-        public byte Foraging { get; set; } = 1;
+        public byte Foraging { get; set; } = 10;
 
-        public byte Luck { get; set; } = 1;
+        public byte Luck { get; set; } = 255;
 
         public KeybindList ReloadKey { get; set; } = new KeybindList(SButton.F9);
     }
